@@ -55,6 +55,3 @@ L'expression `rr - X() - <()` est équivalente à `rr - X(0) - <(0)`.
 - Il n’a pas de phase particulière (représentée par la barre jaune).
 - En notation d’Euler : `1.e^(i0)` ou `cos(0) + isin(0) = 1`.
 
----
-
-Utilisez cette documentation pour comprendre les bases de l’utilisation de `QReg` avec un QBit unique.
