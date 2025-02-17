@@ -1,0 +1,80 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.0 (Amazon.com Inc. Java 11.0.26)
+[debug] Load.defaultLoad until apply took 463.966987ms
+[debug]           Load.loadUnit: plugins took 106.65227ms
+[debug]           Load.loadUnit: defsScala took 0.401493ms
+[debug] [Loading] Scanning directory /Users/yvesei/Documents/info 🗂️/courses 🧑‍🏫/Quantum/VisualQuantumSimulator/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/yvesei/Documents/info 🗂️/courses 🧑‍🏫/Quantum/VisualQuantumSimulator/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 25.081544 ms
+[debug]               Load.resolveProject(visualquantumsimulator-build) took 71.025185ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id visualquantumsimulator-build, base: /Users/yvesei/Documents/info 🗂️/courses 🧑‍🏫/Quantum/VisualQuantumSimulator/project, plugins: List(<none>))) took 140.408921ms
+[debug] [Loading] Done in /Users/yvesei/Documents/info 🗂️/courses 🧑‍🏫/Quantum/VisualQuantumSimulator/project, returning: (visualquantumsimulator-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 167.657306ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.445906ms
+[debug]         Load.loadUnit(file:/Users/yvesei/Documents/info%20🗂️/courses%20🧑‍🏫/Quantum/VisualQuantumSimulator/project/, ...) took 282.398156ms
+[debug]       Load.apply: load took 2132.079804ms
+[debug]       Load.apply: resolveProjects took 16.740889ms
+[debug]       Load.apply: finalTransforms took 254.41128ms
+[debug]       Load.apply: config.delegates took 17.149513ms
+[debug]       Load.apply: Def.make(settings)... took 1152.288676ms
+[debug]       Load.apply: structureIndex took 203.824789ms
+[debug]       Load.apply: mkStreams took 2.860814ms
+[info] loading project definition from /Users/yvesei/Documents/info 🗂️/courses 🧑‍🏫/Quantum/VisualQuantumSimulator/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 6378.230555ms
+[debug]     Load.loadUnit: defsScala took 0.010125ms
+[debug] [Loading] Scanning directory /Users/yvesei/Documents/info 🗂️/courses 🧑‍🏫/Quantum/VisualQuantumSimulator
+[debug]       Load.loadUnit: mkEval took 20.242809ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 5.285819 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 4.73782ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /Users/yvesei/Documents/info 🗂️/courses 🧑‍🏫/Quantum/VisualQuantumSimulator, plugins: List(<none>))) took 12.081362ms
+[debug] [Loading] Done in /Users/yvesei/Documents/info 🗂️/courses 🧑‍🏫/Quantum/VisualQuantumSimulator, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 489.734301ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.112518ms
+[debug]   Load.loadUnit(file:/Users/yvesei/Documents/info%20🗂️/courses%20🧑‍🏫/Quantum/VisualQuantumSimulator/, ...) took 6879.468514ms
+[debug] Load.apply: load took 6909.858055ms
+[debug] Load.apply: resolveProjects took 0.196276ms
+[debug] Load.apply: finalTransforms took 69.245768ms
+[debug] Load.apply: config.delegates took 0.822512ms
+[debug] Load.apply: Def.make(settings)... took 241.239127ms
+[debug] Load.apply: structureIndex took 73.277769ms
+[debug] Load.apply: mkStreams took 0.002853ms
+[info] set current project to vqs (in build file:/Users/yvesei/Documents/info%20🗂️/courses%20🧑‍🏫/Quantum/VisualQuantumSimulator/)
