@@ -7,6 +7,7 @@ object Main {
   QReg.setDefaultUseASCII()
 
   def main(args: Array[String]): Unit = {
+    QReg.setDefaultDrawAll()
     // Create quantum register with 3 qubits
     val rr = new QReg(3)
 
@@ -27,7 +28,7 @@ object Main {
     rr - C(X(1), 2)
     rr - H(2)
     rr - <(1)- <(2)
-    rr - X(0)
+    rr - Y(0)
     println(rr.render)
 
 
