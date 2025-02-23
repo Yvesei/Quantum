@@ -8,9 +8,10 @@ object Main {
 
   def main(args: Array[String]): Unit = {
     QReg.setDefaultDrawAll()
+
     // Create quantum register with 3 qubits
     val rr = new QReg(3)
-
+    rr.trace()
     // Get random state
     val phiState: (QComplex, QComplex) = QUtils.randomState()
 
@@ -22,7 +23,6 @@ object Main {
     println(rr)
 
     println("Alice reads:")
-
     rr - H(0)
     rr - C(X(1), 0)
     rr - C(X(1), 2)
@@ -38,5 +38,6 @@ object Main {
 
 
     println("\nBob State is : " + phiState)
+
   }
 }
